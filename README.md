@@ -243,4 +243,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-**Subhankar Satpathy** — [@suwubh](https://github.com/suwubh)
+**Devdatt Singh** — [@Devdatt](https://github.com/Devdatt-58)
