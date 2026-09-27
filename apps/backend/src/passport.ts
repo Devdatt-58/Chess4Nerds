@@ -26,7 +26,7 @@ export function initPassport() {
           clientSecret: GOOGLE_CLIENT_SECRET,
           callbackURL: '/auth/google/callback',
         },
-        async (_accessToken, _refreshToken, profile, done) => {
+        async (_accessToken, _refreshToken,profile, done) => {
           try {
             const email = profile.emails?.[0]?.value;
             if (!email) {
