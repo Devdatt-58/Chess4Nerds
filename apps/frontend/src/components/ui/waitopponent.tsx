@@ -1,3 +1,5 @@
+
+
 export function Waitopponent() {
   return (
     <div className="relative items-center block max-w-sm p-6 bg-gray-200 border border-black rounded-lg shadow-md">
