@@ -16,7 +16,7 @@ router.get('/history/:userId', async (req, res) => {
     res.json({
       success: true,
       data: { games, page, limit, hasMore: games.length === limit },
-    });
+    }) ; 
   } catch (error) {
     console.error('Game history error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch game history' });
@@ -56,5 +56,6 @@ router.get('/stats/:userId', async (req, res) => {
     res.status(500).json({ success: false, error: 'Failed to fetch game stats' });
   }
 });
+
 
 export default router;

@@ -1,3 +1,5 @@
+
+
 import { PuzzleIcon, LogInIcon, LogOutIcon, SettingsIcon, TrophyIcon, UserIcon } from 'lucide-react';
 
 import { useThemeContext } from '@/hooks/useThemes'; // Import theme context
