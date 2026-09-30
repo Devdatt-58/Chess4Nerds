@@ -1,3 +1,5 @@
+
+
 import { Color, PieceSymbol, Square } from 'chess.js';
 
 const ChessSquare = ({
