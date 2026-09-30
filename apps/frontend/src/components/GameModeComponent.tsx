@@ -1,3 +1,6 @@
+
+
+
 import { ReactNode, MouseEventHandler } from 'react';
 
 interface GameModeComponent {
