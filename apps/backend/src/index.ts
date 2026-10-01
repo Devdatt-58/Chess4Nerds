@@ -20,6 +20,8 @@ process.on('uncaughtException', (err) => {
   console.error('Uncaught exception:', err);
 });
 
+
+
 const COOKIE_SECRET = process.env.COOKIE_SECRET;
 if (!COOKIE_SECRET) {
   throw new Error('COOKIE_SECRET environment variable is required');
